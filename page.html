@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page" data-scroll-container>
+        <div id="barba-wrapper" data-barba="wrapper">
+            <div id="barba-container" data-barba="container" data-barba-namespace="page">
+                <div data-scroll-section>
+                    <div class="box" data-scroll data-scroll-speed="-3"><a href="index.html">Page.html</a></div>
+                    <div class="box" data-scroll data-scroll-speed="2"></div>
+                    <div class="box" data-scroll data-scroll-speed="6"></div>
+                    <div class="box" data-scroll data-scroll-speed="-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="./locomotive-scroll.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
